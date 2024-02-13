@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "image": "/img/imgss/4.png",
+    "title": "Collezione #001",
+    "price": "0.00",
+    "quantity": 1,
+    "type": "sand",
+    "special": "fox fire",
+    "clothing": "maroon yukata",
+    "date": "2021-07-01",
+    "works": 2,
+    "city": "Milano",
+    "location": "Via della Moscova, 16",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et luctus mi mauris ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et luctus mi mauris ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus."
+  },
+  {
+    "id": 2,
+    "image": "/img/imgss/2.png",
+    "title": "Collezione #002",
+    "price": "0.00",
+    "quantity": 1,
+    "type": "spirit",
+    "special": "fox fire",
+    "clothing": "light kimono",
+    "date": "2021-07-01",
+    "works": 2,
+    "city": "Milano",
+    "location": "Via della Moscova, 16"
+  },
+  {
+    "id": 3,
+    "image": "/img/imgss/3.png",
+    "title": "Collezione #003",
+    "price": "0.00",
+    "quantity": 1,
+    "type": "fire",
+    "special": "fox fire",
+    "clothing": "bule kimono",
+    "date": "2021-07-01",
+    "works": 2,
+    "city": "Milano",
+    "location": "Via della Moscova, 16"
+  },
+  {
+    "id": 4,
+    "image": "/img/imgss/5.png",
+    "title": "Collezione #004",
+    "price": "0.00",
+    "quantity": 1,
+    "type": "sand",
+    "special": "fox fire",
+    "clothing": "light kimono",
+    "date": "2021-07-01",
+    "works": 2,
+    "city": "Milano",
+    "location": "Via della Moscova, 16"
+  }
+]
