@@ -471,7 +471,7 @@ input[type="text"]:focus {
 .container {
 	width: 100%;
 	max-width: 1800px;
-	padding: 0 100px;
+	/* padding: 0 100px; */
 	margin: 0 auto;
 }
 
@@ -489,19 +489,19 @@ input[type="text"]:focus {
 
 @media(max-width: 1200px) {
 	.container {
-		padding: 0 40px;
+		/* padding: 0 40px; */
 	}
 }
 
 @media(max-width: 1040px) {
 	.container {
-		padding: 0 20px;
+		/* padding: 0 20px; */
 	}
 }
 
 @media(max-width: 480px) {
 	.container {
-		padding: 0 10px;
+		/* padding: 0 10px; */
 	}
 }
 
@@ -1254,8 +1254,11 @@ a.full_link {
 
 #home {
 	overflow: hidden;
-	padding-top: 179px;
+	/* padding-top: 179px; */
 	/* padding-bottom: 150px; */
+	height: 100vh;
+	width: 100vw;
+	margin-bottom: 20px;
 }
 
 
@@ -2272,16 +2275,16 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	align-items: flex-end;
 	margin-left: -40px;
 	flex-wrap: wrap;
-	padding-right: 40px;
+	/* padding-right: 40px; */
 }
 
 .fn_cs_collection .collection_top .item {
-	width: 31.2%;
+	width: 25%;
 }
 
 .fn_cs_collection .collection_top .item:nth-child(2),
 .fn_cs_collection .collection_top .item:nth-child(4) {
-	width: 18.8%;
+	width: 25%;
 }
 
 .fn_cs_collection .collection_bottom {
@@ -2298,12 +2301,12 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 }
 
 .fn_cs_collection .collection_bottom .item {
-	width: 31.2%;
+	width: 25%;
 }
 
 .fn_cs_collection .collection_bottom .item:nth-child(1),
 .fn_cs_collection .collection_bottom .item:nth-child(3) {
-	width: 18.8%;
+	width: 25%;
 }
 
 /* Since v4.0 */
@@ -2317,14 +2320,14 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 .fn_cs_collection.modern .collection_bottom .item,
 .fn_cs_collection.modern .collection_top .item {
-	width: 18.8%;
+	width: 25%;
 }
 
 .fn_cs_collection.modern .collection_bottom .item:nth-child(2),
 .fn_cs_collection.modern .collection_bottom .item:nth-child(3),
 .fn_cs_collection.modern .collection_top .item:nth-child(2),
 .fn_cs_collection.modern .collection_top .item:nth-child(3) {
-	width: 31.2%;
+	width: 25%;
 }
 
 
@@ -6177,7 +6180,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 	.fn_cs_collection .collection_top {
 		margin-left: -20px;
-		padding-right: 20px;
+		padding-left: 20px;
 	}
 
 	.fn_cs_collection .collection_bottom {
@@ -6314,7 +6317,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	}
 
 	#home {
-		padding-top: 150px;
+		/* padding-top: 150px; */
 	}
 
 	.metaportal_fn_searchbox input {
@@ -6855,7 +6858,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 /* Since v4.0 */
 #home2 {
-	padding-top: 179px;
+	/* padding-top: 179px; */
 	position: relative;
 }
 

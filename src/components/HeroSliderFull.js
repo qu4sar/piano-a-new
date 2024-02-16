@@ -21,16 +21,16 @@ const HeroSliderFull = () => {
 
   const [slides, setSlides] = useState(sliderComponentData);
   useEffect(() => {
-   
+
     sliderManagement();
   }, []);
 
   return (
-    <section id="home" style={{ width: '100vw', height: '90vh', overflow: 'hidden' }}>
-      <div className="container" style={{ height: '100%' }}>
+    <section id="home" style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
+      <div className="container" style={{ height: '100%', width: "100vw" }}>
         {/* Full screen image */}
-        <div className="slider_part" style={{ height: '100%' }}>
-          <Swiper {...Hero4Slider} className="swiper-container" style={{ height: '100%' }}>
+        <div className="slider_part" style={{ height: '100%', width: "100%"  }}>
+          <Swiper {...Hero4Slider} className="swiper-container" style={{ height: '100%', width: "100%" }}>
             <div className="swiper-wrapper">
               {
                 slides?.map((item, index) => {
@@ -64,7 +64,7 @@ const HeroSliderFull = () => {
 
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 export default HeroSliderFull;
